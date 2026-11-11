@@ -1,0 +1,6 @@
+$ java Hierarchy
+Vehicle constructor
+Car constructor
+ElectricCar constructor
+
+Exit code: 0

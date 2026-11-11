@@ -1,0 +1,11 @@
+$ java Adaptation
+PASS e-bike flat fee
+PASS daytime van double rate
+PASS 17:00 is outside peak band
+PASS van crossing 09:00 boundary
+PASS visitor one-day pass
+PASS day pass expires at date boundary
+PASS monthly pass restricted to student or staff
+Existing model/service source files modified: 0; additions: EBike, DeliveryVan, revised pricing composition
+
+Exit code: 0

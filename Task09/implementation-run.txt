@@ -1,0 +1,6 @@
+$ java Abstraction
+PASS abstract vehicle fee contract
+PASS independent charging capability
+Charging unit: kWh
+
+Exit code: 0

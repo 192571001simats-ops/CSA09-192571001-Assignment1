@@ -1,0 +1,7 @@
+$ java Representation
+61 minutes: incorrect Rs 30, correct Rs 60
+PASS ceiling billing
+PASS unequal floor capacities
+PASS addition does not overflow int
+
+Exit code: 0

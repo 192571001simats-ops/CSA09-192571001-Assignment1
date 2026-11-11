@@ -1,0 +1,6 @@
+$ java Constructors
+PASS duplicate document preserves issued ticket ID
+PASS immutable vehicle reference safely shared
+PASS invalid constructor argument
+
+Exit code: 0

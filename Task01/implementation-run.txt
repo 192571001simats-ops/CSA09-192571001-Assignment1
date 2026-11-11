@@ -1,0 +1,6 @@
+$ java ObjectModel
+PASS first suitable regular slot
+PASS duplicate registration rejected
+Objects: Vehicle, ParkingTicket, ParkingService, Pass, PricingRule
+
+Exit code: 0

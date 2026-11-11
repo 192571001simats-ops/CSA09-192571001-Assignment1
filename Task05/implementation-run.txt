@@ -1,0 +1,6 @@
+$ java Lifecycle
+PASS process-wide unique ticket sequence
+North ticket reference removed; collection is eligible only after all strong references disappear
+No claim that garbage collection has already run
+
+Exit code: 0
