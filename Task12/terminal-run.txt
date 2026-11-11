@@ -1,0 +1,14 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m Adaptation
+PASS e-bike flat fee
+PASS daytime van double rate
+PASS 17:00 is outside peak band
+PASS van crossing 09:00 boundary
+PASS visitor one-day pass
+PASS day pass expires at date boundary
+PASS monthly pass restricted to student or staff
+Existing model/service source files modified: 0; additions: EBike, DeliveryVan, revised pricing composition
+$ run_status=0
+Program exit code: 0

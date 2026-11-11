@@ -1,0 +1,10 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m Representation
+61 minutes: incorrect Rs 30, correct Rs 60
+PASS ceiling billing
+PASS unequal floor capacities
+PASS addition does not overflow int
+$ run_status=0
+Program exit code: 0

@@ -1,0 +1,9 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m ObjectModel
+PASS first suitable regular slot
+PASS duplicate registration rejected
+Objects: Vehicle, ParkingTicket, ParkingService, Pass, PricingRule
+$ run_status=0
+Program exit code: 0

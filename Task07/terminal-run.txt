@@ -1,0 +1,10 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m Equality
+PASS registration is normalized cross-type identity
+PASS same registration deduplicated
+Car TN02B2
+Rates: 90.0 and 30.0
+$ run_status=0
+Program exit code: 0
