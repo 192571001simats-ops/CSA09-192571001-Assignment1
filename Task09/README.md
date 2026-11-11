@@ -1,0 +1,24 @@
+# Task09
+
+Athisaya U  
+192571001  
+Programming in Java CSA09  
+OpenJDK 21.0.13
+
+## Compile and run
+
+From the repository root on Linux or macOS:
+
+```bash
+mkdir -p build/Task09
+javac -encoding UTF-8 -d build/Task09 $(find shared Task09 -name "*.java")
+cd Task09
+java -cp ../build/Task09 Abstraction
+cd ..
+```
+
+Windows PowerShell uses `Get-ChildItem shared,Task09 -Recurse -Filter *.java` to collect sources before calling javac.
+
+## Execution evidence
+
+The captured output is in output.txt. Raw repeated measurements, where required, are in results.csv; summary.csv reports the mean, median, range and standard deviation. Heap deltas reflect heap occupancy and are not allocated-byte counts.
