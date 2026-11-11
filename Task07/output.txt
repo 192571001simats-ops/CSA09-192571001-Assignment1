@@ -1,0 +1,9 @@
+$ java Equality
+PASS registration is normalized cross-type identity
+PASS same registration deduplicated
+Car TN02B2
+Rates: 90.0 and 30.0
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
