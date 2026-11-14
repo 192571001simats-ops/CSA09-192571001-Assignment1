@@ -1,0 +1,8 @@
+$ java Constructors
+PASS duplicate document preserves issued ticket ID
+PASS immutable vehicle reference safely shared
+PASS invalid constructor argument
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

@@ -1,0 +1,38 @@
+{
+  "Task01": [
+    "ObjectModel"
+  ],
+  "Task02": [
+    "Representation"
+  ],
+  "Task03": [
+    "ParkingFacility"
+  ],
+  "Task04": [
+    "Constructors"
+  ],
+  "Task05": [
+    "Lifecycle"
+  ],
+  "Task06": [
+    "Hierarchy"
+  ],
+  "Task07": [
+    "Equality"
+  ],
+  "Task08": [
+    "FeeDemo"
+  ],
+  "Task09": [
+    "Abstraction"
+  ],
+  "Task10": [
+    "Encapsulation"
+  ],
+  "Task11": [
+    "SystemValidation"
+  ],
+  "Task12": [
+    "Adaptation"
+  ]
+}

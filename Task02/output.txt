@@ -1,0 +1,9 @@
+$ java Representation
+61 minutes: incorrect Rs 30, correct Rs 60
+PASS ceiling billing
+PASS unequal floor capacities
+PASS addition does not overflow int
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

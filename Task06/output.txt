@@ -1,0 +1,8 @@
+$ java Hierarchy
+Vehicle constructor
+Car constructor
+ElectricCar constructor
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

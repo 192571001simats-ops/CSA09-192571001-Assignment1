@@ -1,0 +1,8 @@
+$ java Lifecycle
+PASS process-wide unique ticket sequence
+North ticket reference removed; collection is eligible only after all strong references disappear
+No claim that garbage collection has already run
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

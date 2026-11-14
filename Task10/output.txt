@@ -1,0 +1,10 @@
+$ java Encapsulation
+PASS validated mutable energy reading
+PASS setter rejects negative energy
+PASS negative duration rejected at model boundary
+PASS wrapper value comparison
+Packages: parking.model, parking.service; demo in Task10
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

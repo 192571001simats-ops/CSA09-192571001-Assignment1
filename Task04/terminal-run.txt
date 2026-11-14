@@ -1,0 +1,9 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m Constructors
+PASS duplicate document preserves issued ticket ID
+PASS immutable vehicle reference safely shared
+PASS invalid constructor argument
+$ run_status=0
+Program exit code: 0

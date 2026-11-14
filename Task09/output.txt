@@ -1,0 +1,8 @@
+$ java Abstraction
+PASS abstract vehicle fee contract
+PASS independent charging capability
+Charging unit: kWh
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

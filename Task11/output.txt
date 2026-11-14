@@ -1,0 +1,36 @@
+$ java SystemValidation
+PASS two-wheeler 130 minutes Rs30
+PASS car 130 minutes Rs90
+PASS EV parking plus charging Rs210
+PASS valid monthly staff pass
+PASS hand calculated daily collection Rs330
+BOUNDARY minutes=0 carFee=0.0
+BOUNDARY minutes=60 carFee=30.0
+BOUNDARY minutes=61 carFee=60.0
+BOUNDARY minutes=480 carFee=240.0
+BOUNDARY minutes=1440 carFee=240.0
+BOUNDARY minutes=1441 carFee=270.0
+PASS zero and slab boundaries
+PASS unknown vehicle type
+PASS invalid slot
+PASS last suitable slot allocated
+PASS full suitable category handled
+PASS duplicate registration
+PASS exit before entry preserves occupied slot
+PASS failed exit does not release slot
+MEASURED array_exit_search size=20 trials=5
+MEASURED arraylist_exit_search size=20 trials=5
+MEASURED hashmap_exit_search size=20 trials=5
+MEASURED array_exit_search size=150 trials=5
+MEASURED arraylist_exit_search size=150 trials=5
+MEASURED hashmap_exit_search size=150 trials=5
+MEASURED array_exit_search size=500 trials=5
+MEASURED arraylist_exit_search size=500 trials=5
+MEASURED hashmap_exit_search size=500 trials=5
+MEASURED array_exit_search size=10000 trials=5
+MEASURED arraylist_exit_search size=10000 trials=5
+MEASURED hashmap_exit_search size=10000 trials=5
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

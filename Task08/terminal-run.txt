@@ -1,0 +1,10 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m FeeDemo
+TwoWheeler TN01A1 -> Rs 30.0
+Car TN02B2 -> Rs 90.0
+ElectricCar TN03C3 -> Rs 210.0
+true
+$ run_status=0
+Program exit code: 0
