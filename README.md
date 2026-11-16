@@ -44,7 +44,6 @@ The heap value is a change in memory usage, not the total bytes allocated. Timin
 ## Report
 
 [PDF report](report/Athisaya_U_Java_Assignment1_Completed.pdf)  
-[Word report](report/Athisaya_U_Java_Assignment1_Completed.docx)
 
 ## Output and screenshots
 
